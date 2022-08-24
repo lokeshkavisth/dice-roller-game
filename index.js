@@ -44,6 +44,8 @@ function DiceRoller2() {
 
 DiceRoller2();
 
+// FUNCTION FOR WINNING LOGIC
+
 function winner() {
   if (Num > Num2) {
     document.querySelector("h1").textContent = "Player 1 Is Winner.";
